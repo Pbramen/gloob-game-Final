@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 8e861f59534763a4e84a74a97fea7308
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Solider_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a51a9d07cd2b4b9671cbd62923415
+      internalID: 519840919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4ba4e388e04d4880d509ded3dc153
+      internalID: 366681828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca04011fa02d474aa799d8a21ea7553
+      internalID: 292197717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed61a25d8686f94ba6afb695f613fa1
+      internalID: 1966312164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd1d18e0ea616f4190ea732ed23b0f6
+      internalID: 1040712073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7418763de2b139e4d904e2df34aaddaa
+      internalID: -1763868929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54ab6030b2e6f64c94faae0973fab2a
+      internalID: 208128899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffb38bd5b239b948acb4c70caa143cb
+      internalID: 661978391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d2277854ad79d4fa53ba47414b4457
+      internalID: -1145440167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02407412a4ad37945ae60d0d1b5e4d27
+      internalID: 208969898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141abefa22e7c14fbe594730bab9873
+      internalID: -1700640189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a963e7dad75b64a9c4a79669c3e1ea
+      internalID: -886033996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f07ec8a7e248ab4096390721a7858ed
+      internalID: 443036859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6801fe40e9f16fc4b826bbffe14b18c4
+      internalID: -1098038719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349e6576748882e42b8fc554b3465467
+      internalID: 1130795601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad414ac589e80f14eb31239070d77984
+      internalID: -1178361461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2bf4aa057ff14983335f127bd4af5
+      internalID: -891892114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29de546ad82b0304ab12d88bc0f0d847
+      internalID: 297534721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d6f6b239c17940b8be6824be0c35d
+      internalID: 139499106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solider_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22.404442, y: -79.75687}
+        - {x: -22.404442, y: -12.133362}
+        - {x: 15.117073, y: -12.133362}
+        - {x: 15.117073, y: -79.75687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8aa299a91bf5e479123f3cf7ca892e
+      internalID: -1666548093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Solider_4: 1040712073
+      Solider_15: -1178361461
+      Solider_16: -891892114
+      Solider_13: -1098038719
+      Solider_14: 1130795601
+      Solider_1: 366681828
+      Solider_18: 139499106
+      Solider_17: 297534721
+      Solider_0: 519840919
+      Solider_10: -1700640189
+      Solider_6: 208128899
+      Solider_2: 292197717
+      Solider_8: -1145440167
+      Solider_9: 208969898
+      Solider_11: -886033996
+      Solider_19: -1666548093
+      Solider_3: 1966312164
+      Solider_7: 661978391
+      Solider_5: -1763868929
+      Solider_12: 443036859
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - platform
+  - OneWay
+  - gem
+  - enemy
+  - ammo
+  - doorBreak
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Platform
+  - OneWay
+  - enemy
+  - gloob
+  - blockCollision
+  - hp
+  - projectile
+  - pickUp
+  - doorBreaker
+  - gem
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 1039968169
+    locked: 0
+  - name: Foreground
+    uniqueID: 1881237961
+    locked: 0
+  - name: platforms
+    uniqueID: 3157355789
+    locked: 0
+  - name: trailFx
+    uniqueID: 1920849519
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Characters
+    uniqueID: 694008749
+    locked: 0
+  - name: UI
+    uniqueID: 3275452313
+    locked: 0
