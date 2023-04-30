@@ -172,6 +172,8 @@ MonoBehaviour:
   genRooms:
   - {fileID: 4332899137422000672, guid: 1e6ae66f07f27f5419b463b93c536760, type: 3}
   - {fileID: 7161300744998160052, guid: e592818f13e8062429ef8dc94d954eaf, type: 3}
+  - {fileID: 641556426188265950, guid: 9fd80d493b6e8f148bfb591f7b66da37, type: 3}
+  - {fileID: 641556426188265950, guid: 6fd347650eb9e3f4cbb3ea0b54289db3, type: 3}
   failures: 0
   maxFailures: 100
   seed: {fileID: 11400000, guid: 8d82084fbf96c7d44bf01ac60c43f419, type: 2}
