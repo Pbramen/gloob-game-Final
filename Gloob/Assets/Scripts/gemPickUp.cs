@@ -12,4 +12,8 @@ public class gemPickUp : MonoBehaviour
         pointTracker += 1;
         points.text = pointTracker.ToString();
     }
+    public void substractPoints(int i) {
+        pointTracker -= i;
+        points.text = pointTracker.ToString();
+    }
 }

@@ -116,6 +116,7 @@ public class ModularLevelGenerator : MonoBehaviour
 
             //move it out of the way so it looks pretty while it's generating
             nextGenRoom.transform.position += new Vector3(100,100,0);
+            
             yield return null;
             
         
