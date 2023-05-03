@@ -33,7 +33,7 @@ public class HPBar : MonoBehaviour
     void Start()
     {
         // loadHPStats();
-        stats.curHP = 10;
+
         gloob = this.gameObject.GetComponentInParent<gloob>();
         gloobPos = gloob.GetComponent<Transform>();
         gloobSprite = gloob.GetComponent<SpriteRenderer>();
