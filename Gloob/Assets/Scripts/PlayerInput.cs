@@ -27,8 +27,13 @@ public class PlayerInput : MonoBehaviour
             gloob.stop();
         }
         if (Input.GetKeyDown(KeyCode.F) && gloob.atExit) {
+            gloob.atExit = false;
             SceneManager.LoadScene("EndScene");
         }
+        if (Input.GetKeyDown(KeyCode.F) && gloob.backToMenu) {
+            gloob.backToMenu = false;
+            SceneManager.LoadScene("MainMenu");
+        }    
     }
 
 

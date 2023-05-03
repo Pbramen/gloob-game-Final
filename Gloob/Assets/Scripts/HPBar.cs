@@ -14,8 +14,6 @@ public class HPBar : MonoBehaviour
     [SerializeField]public GameObject hpBloob;
     public GameObject explosive;
     [SerializeField] float timer, radius; 
-    // [SerializeField] int curHP;
-    // [SerializeField] int maxHP;
     SpriteRenderer gloobSprite;
     Transform gloobPos;
     public LinkedList<GameObject> hpList;
@@ -35,6 +33,7 @@ public class HPBar : MonoBehaviour
     void Start()
     {
         // loadHPStats();
+        stats.curHP = 10;
         gloob = this.gameObject.GetComponentInParent<gloob>();
         gloobPos = gloob.GetComponent<Transform>();
         gloobSprite = gloob.GetComponent<SpriteRenderer>();

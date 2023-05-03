@@ -11,4 +11,7 @@ public class SceneChange : MonoBehaviour
     public void switchScene() {
         SceneManager.LoadScene("SampleScene");
     }
+    public void tutorialScene() {
+        SceneManager.LoadScene("Tutorial");
+    }
 }

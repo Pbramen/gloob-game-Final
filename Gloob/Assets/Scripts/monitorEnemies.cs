@@ -10,6 +10,7 @@ public class monitorEnemies : MonoBehaviour
     public UnityEvent openDoor;
     public GenRoom thisRoom;
     bool nonCombat = false;
+    public bool tutorial = false;
     void Start()
     {
         thisRoom = GetComponentInParent<GenRoom>();
@@ -34,7 +35,7 @@ public class monitorEnemies : MonoBehaviour
     }
 
     IEnumerator generateEnemies(){
-        yield return new WaitUntil(() => ModularLevelGenerator.scanComplete && thisRoom.active);
+        yield return new WaitUntil(() => (ModularLevelGenerator.scanComplete || tutorial) && thisRoom.active);
         if (nonCombat) {
             Debug.Log("door is opened!");
             yield return new WaitForSeconds(1f);

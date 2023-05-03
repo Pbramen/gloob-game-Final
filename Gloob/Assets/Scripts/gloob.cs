@@ -40,6 +40,7 @@ public class gloob: MonoBehaviour{
     public AudioClip obtainGem;
     public properties stats;
     public static bool atExit = false;
+    public static bool backToMenu = false;
     void Start(){
         ph2D.bounciness = 0;
         rd = GetComponent<Rigidbody2D>();
@@ -147,6 +148,9 @@ public class gloob: MonoBehaviour{
     void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.CompareTag("Exit")) {
             atExit = true;
+        }
+        if (other.gameObject.CompareTag("TutorialExit")){
+            backToMenu = true;
         }
 
     }

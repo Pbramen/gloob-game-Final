@@ -25,32 +25,32 @@ public class itemPurchase : MonoBehaviour
         popUP.enabled = false;
     }
     void Update() {
-        if (itemSpeed && Input.GetKeyDown(KeyCode.F) && points.pointTracker > 10 ) {
+        if (itemSpeed && Input.GetKeyDown(KeyCode.F) && points.pointTracker >= 10 ) {
             points.substractPoints(10);
             stats.speed += 1;
             StartCoroutine(purchaseMessage());
             return;
         }
-        else if (itemDamage && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 15) {
+        else if (itemDamage && Input.GetKeyDown(KeyCode.F)  && points.pointTracker >= 15) {
             points.substractPoints(15);
             stats.baseDamage += 1;
             StartCoroutine(purchaseMessage());
             return;
         }
-        else if (itemAS && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 20) {
+        else if (itemAS && Input.GetKeyDown(KeyCode.F)  && points.pointTracker >= 20) {
             points.substractPoints(20);
             stats.attackSpeed -= 0.10f;
             StartCoroutine(purchaseMessage());
             return;
         }
-        else if (itemBomb && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 10) {
+        else if (itemBomb && Input.GetKeyDown(KeyCode.F)  && points.pointTracker >= 10) {
            points.substractPoints(10);
             //add bomb
             bombPurchase?.Invoke();
             StartCoroutine(purchaseMessage());
             return;
         }
-        else if (itemHeart && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 20) {
+        else if (itemHeart && Input.GetKeyDown(KeyCode.F)  && points.pointTracker >= 20) {
             points.substractPoints(20);
             //add regular gem
             hpPurchase?.Invoke();

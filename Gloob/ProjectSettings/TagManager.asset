@@ -16,6 +16,7 @@ TagManager:
   - itemAS
   - itemBomb
   - Exit
+  - TutorialExit
   layers:
   - Default
   - TransparentFX
