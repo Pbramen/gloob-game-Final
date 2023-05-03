@@ -3223,6 +3223,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   thisRoom: {fileID: 0}
+  tutorial: 0
 --- !u!1 &8571972752210242114
 GameObject:
   m_ObjectHideFlags: 0

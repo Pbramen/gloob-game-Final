@@ -1539,6 +1539,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   thisRoom: {fileID: 0}
+  tutorial: 0
 --- !u!1 &3637169582613336042
 GameObject:
   m_ObjectHideFlags: 0
