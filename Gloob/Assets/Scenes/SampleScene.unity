@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f265a0361974f774a948cf3e1cf2a5da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomsMin: 4
-  roomsMax: 5
+  roomsMin: 20
+  roomsMax: 25
   genRooms:
   - {fileID: 4332899137422000672, guid: 1e6ae66f07f27f5419b463b93c536760, type: 3}
   - {fileID: 7161300744998160052, guid: e592818f13e8062429ef8dc94d954eaf, type: 3}
