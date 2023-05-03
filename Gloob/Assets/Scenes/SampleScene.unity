@@ -174,6 +174,9 @@ MonoBehaviour:
   - {fileID: 7161300744998160052, guid: e592818f13e8062429ef8dc94d954eaf, type: 3}
   - {fileID: 641556426188265950, guid: 9fd80d493b6e8f148bfb591f7b66da37, type: 3}
   - {fileID: 641556426188265950, guid: 6fd347650eb9e3f4cbb3ea0b54289db3, type: 3}
+  - {fileID: 641556426188265950, guid: 4f138dba79d7ae040876941ee2ad85a4, type: 3}
+  - {fileID: 641556426188265950, guid: 1109006ed35f4624a83643368fdb2532, type: 3}
+  - {fileID: 641556426188265950, guid: 15685ce252554a94f8c875f6f38d7e21, type: 3}
   failures: 0
   maxFailures: 100
   seed: {fileID: 11400000, guid: 8d82084fbf96c7d44bf01ac60c43f419, type: 2}
@@ -1083,10 +1086,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4708182948485005057, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
-      propertyPath: stats
+    - target: {fileID: 431696602, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: m_Text
+      value: SOLD!!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 431696602, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 431696602, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 431696602, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8084626
+      objectReference: {fileID: 0}
+    - target: {fileID: 431696602, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740356836, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
+      propertyPath: points
       value: 
-      objectReference: {fileID: 11400000, guid: bb78d0bc0369c23438ab2d49ab27fbc5, type: 2}
+      objectReference: {fileID: 2143527740}
     - target: {fileID: 4708182948485005057, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
       propertyPath: gemPickUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1755,66 +1778,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4708182948485005058, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
   m_PrefabInstance: {fileID: 759949813}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1740356831 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4708182948485005060, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
-  m_PrefabInstance: {fileID: 759949813}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1740356836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740356831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f3bd5aa42998e4195e8006a6a0438b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: bb78d0bc0369c23438ab2d49ab27fbc5, type: 2}
-  points: {fileID: 2143527740}
-  hpPurchase:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2016670966}
-        m_TargetAssemblyTypeName: HPBar, Assembly-CSharp
-        m_MethodName: purchaseBloob
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  bombPurchase:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2016670966}
-        m_TargetAssemblyTypeName: HPBar, Assembly-CSharp
-        m_MethodName: purchaseBomb
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2016670966 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1577483052, guid: 8a9e13b8a22b3d8438676cd9de1a8300, type: 3}
-  m_PrefabInstance: {fileID: 759949813}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 240994d8c183e994eb487b3983576459, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2143527739
 GameObject:
   m_ObjectHideFlags: 0
