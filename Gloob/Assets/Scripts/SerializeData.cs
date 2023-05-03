@@ -17,7 +17,7 @@ public class SerializeData
         properties stats = status.stats;
         this.curHP = stats.curHP;
         this.maxHP = stats.maxHP;
-        this.attack = stats.attack;
+        
         this.armor = stats.armor;
         this.baseDamage = stats.baseDamage;
         this.projectileSpeed = stats.projectileSpeed;

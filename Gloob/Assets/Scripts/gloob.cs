@@ -13,7 +13,6 @@ public class gloob: MonoBehaviour{
     [SerializeField] AnimtionScript anm;
     [SerializeField] PhysicsMaterial2D ph2D;
     [Header ("Movement")]
-    [SerializeField] private float speed = 2.5f;
     private bool canjump = false;
     private bool jumpApex = false;
     [SerializeField]public bool isJumping = false;
@@ -39,7 +38,7 @@ public class gloob: MonoBehaviour{
     private GameObject attacked;
     public AudioClip obtainHP;
     public AudioClip obtainGem;
-
+    public properties stats;
 
     void Start(){
         ph2D.bounciness = 0;
@@ -67,7 +66,7 @@ public class gloob: MonoBehaviour{
     }
     public void Move(){
         if(horizontal !=0){
-            rd.velocity = new Vector2(horizontal * speed, ((rd.velocity.y)));
+            rd.velocity = new Vector2(horizontal * stats.speed, ((rd.velocity.y)));
             anm.ChangeAnimationState("Walking", 1);
             if(horizontal < 0){
                 spriteR.flipX = true;

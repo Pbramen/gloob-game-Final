@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426e4722dbe5845439b0716a1f6b860d, type: 3}
   m_Name: gloob
   m_EditorClassIdentifier: 
-  curHP: 10
+  curHP: 6
   maxHP: 10
-  attack: 1
   armor: 0
   baseDamage: 1
   projectileSpeed: 1
+  speed: 6
+  attackSpeed: 1.5

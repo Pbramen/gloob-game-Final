@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class itemPurchase : MonoBehaviour
 {
     public properties stats;
@@ -14,27 +14,34 @@ public class itemPurchase : MonoBehaviour
     bool itemHeart = false;
 
 
+    public UnityEvent hpPurchase;
+    public UnityEvent bombPurchase;
     void Update() {
         if (itemSpeed && Input.GetKeyDown(KeyCode.F) && points.pointTracker > 10 ) {
             points.substractPoints(10);
+            stats.speed += 1;
             return;
         }
         if (itemDamage && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 15) {
             points.substractPoints(15);
-            stats.attack += 1;
+            stats.baseDamage += 1;
             return;
         }
         if (itemAS && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 20) {
             points.substractPoints(20);
-            
+            stats.attackSpeed -= 0.10f;
             return;
         }
         if (itemBomb && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 10) {
            points.substractPoints(10);
-           return;
+            //add bomb
+            bombPurchase?.Invoke();
+            return;
         }
         if (itemHeart && Input.GetKeyDown(KeyCode.F)  && points.pointTracker > 20) {
             points.substractPoints(20);
+            //add regular gem
+            hpPurchase?.Invoke();
             return;
         }
     }

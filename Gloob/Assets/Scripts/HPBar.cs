@@ -13,7 +13,7 @@ public class HPBar : MonoBehaviour
 
     [SerializeField]public GameObject hpBloob;
     public GameObject explosive;
-    [SerializeField] float attackSpeed, timer, radius; 
+    [SerializeField] float timer, radius; 
     // [SerializeField] int curHP;
     // [SerializeField] int maxHP;
     SpriteRenderer gloobSprite;
@@ -56,13 +56,14 @@ public class HPBar : MonoBehaviour
     }
 
     public void saveHPStats() {
-        SaveSystem.SaveStats(this);
+    //    SaveSystem.SaveStats(this);
     }
 
     public void loadHPStats() { 
-        SerializeData a = SaveSystem.loadStats();
-        stats.loadData(a.curHP, a.maxHP, a.attack, a.armor, a.baseDamage, a.projectileSpeed);
+        //SerializeData a = SaveSystem.loadStats();
+        //stats.loadData(a.curHP, a.maxHP, a.attack, a.armor, a.baseDamage, a.projectileSpeed, a.speed);
     }
+
     /// <summary>
     /// Called by Unity Editor Event system when gloob takes damage.
     /// Removes the first element from the list  
@@ -148,7 +149,7 @@ public class HPBar : MonoBehaviour
                 alterHP(-1, null);
                 isReposition = true;
                 mode = FIRST;
-                timer = attackSpeed;
+                timer = stats.attackSpeed;
                 Fire(direction);
             }
             if (!isReposition && Input.GetButtonDown("RotateRight")) {
@@ -169,7 +170,16 @@ public class HPBar : MonoBehaviour
         timer -= Time.deltaTime;
     }
 
+    public void purchaseBloob() { 
+        GameObject a = Instantiate(hpBloob);
+        alterHP(1, a);
+    }
 
+    public void purchaseBomb()
+    {
+        GameObject a = Instantiate(explosive);
+        alterHP(1, a);
+    }
     void Fire(int direction) {
         GameObject temp = removeFirstNode(hpList);
         string key = temp.name.Substring(0, 2);
@@ -221,14 +231,18 @@ public class HPBar : MonoBehaviour
             stats.curHP = stats.maxHP;
         }
         if(stats.curHP <=0){
-            stats.curHP = 10;
-            SceneManager.LoadScene("MainMenu");
+            gameOver();
         }
 
         if(a > 0){
             addBar(a, bloob);
         }
 
+    }
+
+    public void gameOver() {
+        stats.reset();
+        SceneManager.LoadScene("MainMenu");
     }
     /// <summary>
     /// Reflects all hp bloob position on the y axis. 
