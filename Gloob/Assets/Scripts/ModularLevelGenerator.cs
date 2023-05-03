@@ -12,6 +12,7 @@ public class ModularLevelGenerator : MonoBehaviour
     public int roomsMin = 10;
     public int roomsMax = 30;
     public List<GameObject> genRooms;
+    public GameObject endRoom;
 
     [Header("Trackers")]
     public int failures = 0;
@@ -76,8 +77,14 @@ public class ModularLevelGenerator : MonoBehaviour
             int selectedExit = Random.Range(0,openExits.Count);
             
             //then select a new room type
-            GenRoom nextGenRoom = genRoomPalette[Random.Range(0,genRoomPalette.Count)].GetComponent<GenRoom>();
-            
+            GenRoom nextGenRoom;
+            if (i == roomsToSpawn - 1) {
+                nextGenRoom = endRoom.GetComponent<GenRoom>();
+            }
+            else
+            {
+                nextGenRoom = genRoomPalette[Random.Range(0, genRoomPalette.Count)].GetComponent<GenRoom>();
+            }
             //position our next room where it should go
             nextGenRoom.transform.position = openExits[selectedExit].transform.position;
 

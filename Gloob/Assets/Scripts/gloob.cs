@@ -39,7 +39,7 @@ public class gloob: MonoBehaviour{
     public AudioClip obtainHP;
     public AudioClip obtainGem;
     public properties stats;
-
+    public static bool atExit = false;
     void Start(){
         ph2D.bounciness = 0;
         rd = GetComponent<Rigidbody2D>();
@@ -145,10 +145,13 @@ public class gloob: MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.CompareTag("gem")){
-            test();
+        if (other.gameObject.CompareTag("Exit")) {
+            atExit = true;
         }
 
+    }
+    void OnTriggerExit2D(Collider2D other) {
+        atExit = false;
     }
     void OnCollisionEnter2D(Collision2D other){
 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerInput : MonoBehaviour
 {
     public gloob gloob;
@@ -26,7 +26,11 @@ public class PlayerInput : MonoBehaviour
         if(Input.GetButtonUp("Horizontal")){
             gloob.stop();
         }
+        if (Input.GetKeyDown(KeyCode.F) && gloob.atExit) {
+            SceneManager.LoadScene("EndScene");
+        }
     }
+
 
     void FixedUpdate(){
         if(gloob.kCount <= 0){
